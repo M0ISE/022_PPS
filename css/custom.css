@@ -1,0 +1,487 @@
+/*
+animation-name: EXPERIENCELoad;
+animation-delay: 500ms;
+animation-duration: 500ms;
+animation-timing-function: ease-in-out;
+animation-fill-mode: none ;
+
+@keyframes EXPERIENCELoad {
+  0% {
+    background-image: transparent;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    background-color: blue;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    background-image: green;
+    box-shadow: 1px 1px 8px -6px black;
+    border-radius: 10px;
+    -webkit-text-fill-color: white;
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+    -webkit-animation-timing-function
+  }
+  75% {
+    background-color: red;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    background-image: transparent;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+*/
+#nav {
+  text-align: center;
+}
+
+#nav ul li {
+  display: inline-block;
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+#nav a:hover {}
+
+.heroColor {
+  text-align: center;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+  background: ;
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+body {
+  /*  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+  background-blend-mode: screen; */
+}
+
+html {
+  height: 100%;
+}
+
+.NoDeco {
+  text-decoration: none;
+  -webkit-text-fill-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+}
+
+/* NAV BAR STYLES */
+.EXPERIENCE {
+  /* Style */
+  color: rgb(100, 100, 100);
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 700;
+  /* Animations */
+  transition: all ease .3s;
+  /* webkit */
+  -webkit-transition: all ease .3s;
+  /* Possition and Margins */
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 0px 8px;
+  line-height: 64px;
+  /* Backgrounds */
+  box-shadow: -1px -1px 8px -6px transparent;
+}
+
+.EXPERIENCE:hover {
+  /* Style */
+  background-color: #21e8a7;
+  box-shadow: 1px 1px 8px -6px black;
+  /* webkit */
+  -webkit-text-fill-color: white;
+  -webkit-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
+.PROCESS {
+  /* Style */
+  color: rgb(100, 100, 100);
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 700;
+  /* Animations */
+  transition: all ease .3s;
+  /* webkit */
+  -webkit-transition: all ease .3s;
+  /* Possition and Margins */
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 0px 8px;
+  line-height: 64px;
+  /* Backgrounds */
+  box-shadow: -1px -1px 8px -6px transparent;
+}
+
+.PROCESS:hover {
+  /* Style */
+  background-color: #17d3be;
+  box-shadow: 1px 1px 8px -6px black;
+  /* webkit */
+  -webkit-text-fill-color: white;
+  -webkit-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
+.CONTACT {
+  /* Style */
+  color: rgb(100, 100, 100);
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 700;
+  /* Animations */
+  transition: all ease .3s;
+  /* webkit */
+  -webkit-transition: all ease .3s;
+  /* Possition and Margins */
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 0px 8px;
+  line-height: 64px;
+  /* Backgrounds */
+  box-shadow: -1px -1px 8px -6px transparent;
+}
+
+.CONTACT:hover {
+  /* Style */
+  background-color: #16c9ca;
+  box-shadow: 1px 1px 8px -6px black;
+  /* webkit */
+  -webkit-text-fill-color: white;
+  -webkit-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
+.JASON {
+  /* Style */
+  font-family: 'Archivo', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  /* Animations */
+  transition: all ease .3s;
+  /* webkit */
+  -webkit-transition: all ease .3s;
+  /* Possition and Margins */
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 8px 10px;
+  line-height: 64px;
+  background-image: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  box-shadow: 1px 1px 8px -6px black;
+  border-radius: 10px;
+  /* webkit */
+  -webkit-text-fill-color: white;
+  -webkit-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
+.PopUp {
+  /* Animations */
+  transition: all ease .3s;
+  /* webkit */
+  -webkit-transition: all ease .3s;
+  /* Possition and Margins */
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 8px 10px;
+  line-height: auto;
+  /* Backgrounds */
+  box-shadow: -1px -1px 8px -6px transparent;
+  border-radius: 1px;
+}
+
+.PopUp:hover {
+  /* Style */
+  box-shadow: 1px 1px 8px -6px black;
+  border-radius: 10px;
+  /* webkit */
+  -webkit-text-fill-color: white;
+  -webkit-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
+.PpH {
+  color: rgb(128, 128, 128);
+  font-family: 'Archivo', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.Ppp {
+  /* Process pop Paragraph */
+  color: rgb(128, 128, 128);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Ppp:hover {
+  /* Process pop Paragraph */
+  color: white;
+}
+
+.PppNH {
+  /* Process pop Paragraph */
+  color: rgb(128, 128, 128);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PpGC:hover {
+  /* Process pop Gradient Color */
+  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
+}
+
+.ProcessSubHeading {
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(135deg, #FEB692 15%, #EA5455 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Nunito', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.ProcessBody {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Copy {
+  color: rgb(200, 200, 200);
+}
+
+.RoundShadow {
+  box-shadow: 4px 4px 16px -8px black;
+  border-radius: 20px;
+}
+
+.SlightRoundShadow {
+  box-shadow: 4px 4px 8px -8px black;
+  border-radius: 10px;
+}
+
+.Shadow {
+  box-shadow: 1px 1px 32px -40px transparent;
+}
+
+.ExpSubHeading {
+  text-align: center;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Archivo', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.ExpSubHeadingBIG {
+  text-align: center;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Archivo', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ExpBody {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-align: justify;
+}
+
+.ExpBodyLeft {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.ExpBodyLeftBig {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.ExpBodySmall {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.Logo {
+  display: inline;
+  max-height: 72px;
+  margin: 0 0 50px 0;
+}
+
+.WorkThumb {
+  /* Animations */
+  transition: all ease .3s;
+  /* webkit */
+  -webkit-transition: all ease .3s;
+  -webkit-text-fill-color: rgb(128, 128, 128);
+  /* Possition and Margins */
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 0 0;
+  line-height: auto;
+  /* Backgrounds */
+  box-shadow: -1px -1px 8px -8px transparent;
+  border-radius: 0px;
+}
+
+.WorkThumb:hover {
+  /* Style */
+  box-shadow: 1px 2px 16px -8px black;
+  border-radius: 0px;
+  /* webkit */
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.WorkThumbHead {
+  text-decoration: none;
+  -webkit-text-fill-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+  font-family: 'Archivo', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: justify;
+}
+
+.WorkThumParagraph {
+  text-decoration: none;
+  /* Process pop Paragraph */
+  -webkit-text-fill-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.WorkThumbHack {
+  /* Process pop Gradient Color */
+  box-shadow: 1px 1px 8px -8px transparent;
+  ;
+}
+
+.WorkThumbHack:hover {
+  /* Process pop Gradient Color */
+  box-shadow: 1px 1px 12px -8px black;
+  ;
+}
+
+.Center {
+  display: inline-block;
+}
+
+
+.ExpSubHeading2 {
+  text-align: center;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Archivo', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  font-style: italic;
+}
