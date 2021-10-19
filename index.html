@@ -4,64 +4,118 @@
 <head>
   <!-- The Basics -->
   <meta charset="utf-8">
-  <title>A site by Jason</title>
+  <title>Stuff Moisie Made</title>
   <meta name="description" content="Working on it">
   <meta name="author" content="Jason Moisiadis">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/b8b160c81f.js" crossorigin="anonymous"></script>
 
   <!-- JS -->
-
   <script src=""></script>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="resources/favicon.png">
 
   <!-- Now the Content, Because we all know Content is King -->
 </head>
 
 <body>
 
-  <div id="nav" class="twelve columns">
-    <a href="/index"><img class="Logo animated tada delay-50ms" src="images/jasonLogo.png" alt="Jason Moisiadis"></a>
-  </div>
-
-  <!-- Nav Bar -->
-  <div class="container">
-    <div id="nav" class="twelve columns">
-      <ul>
-        <!--<li><a class="JASON" href="/index">Jason Moisiadis</a></li>-->
-        <li><a class="EXPERIENCE" href="/index">...</a></li>
-        <li><a class="PROCESS" href="/index">...</a></li>
-        <li><a class="CONTACT" href="/index">...</a></li>
-      </ul>
+    <!-- Nav Bar -->
+    <div class="container">
+      <div id="nav" class="twelve columns">
+        <ul>
+          <li>
+          <a href="/index"><img class="navImage" src="resources/isometricLogo.png" alt="Jason Moisiadis"></a>
+        </li>
+          <li>
+            <a class="navlist" href="/me.html">Me</a>
+          </li>
+          <li>
+            <a class="navlist" href="/index.html">Projects</a>
+          </li>
+          <li>
+            <a class="navlist" href="/index.html">Photos</a>
+          </li>
+          <li>
+            <a class="navlist" href="/index.html">Writings</a>
+          </li>
+          <li>
+            <a class="webLinks" href="http://www.google.com">
+              <button class="navIcons" formaction="http://www.gogle.com">
+                <i class="far fa-paper-plane">
+                </i>
+              </button>
+            </a>
+          </li>
+          <li>
+            <a class="webLinks" href="http://www.google.com">
+              <button class="navIcons" formaction="http://twitter.com">
+                <i class="fas fa-phone">
+                </i>
+              </button>
+            </a>
+          </li>
+          <li>
+            <a class="webLinks" href="http://www.google.com">
+              <button class="navIcons">
+                <i class="fab fa-instagram">
+                </i>
+              </button>
+            </a>
+          </li>
+          <li>
+            <a class="webLinks" href="http://www.google.com">
+              <button class="navIcons"><i class="fab fa-twitter">
+                </i>
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-  </div>
-
-  <!-- Hero Text -->
-  <div class="container">
-    <div class="twelve columns">
-      <h1 class="heroColor animated fadeIn delay-150ms" id='dayCount'>Jason is currently working on it</h1>
+    <!-- Hero Text -->
+    <div class="container">
+      <div class="twelve columns">
+        <h3 class="rubiksub medium">Hey, I'd shake your hand but i'm a website :)</h3>
+      </div>
     </div>
-  </div>
 
+    <!-- Hero Text -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="SpaceBody small">Feel free to have a bit of a look around, the categories at the top are somewhat arbitrary and will be interlinked between in some projects. If you have any questions then feel free to click on an icon of your
+          perfired mediator and lets have a chat. Otherwise i hope you find what you're looking for; enjoy!</p>
+        <p id="demo" class="SpaceBody small"></p>
+      </div>
+    </div>
 
-  <!-- THE END –– -->
+    <!-- THE END –– -->
+    <script id="jsonData" src="content.json"></script>
+    <script src="java.js"></script>
+
 </body>
 
 </html>
+
+<!--
+<a href="http://www.google.com" target="" class=""><button class="webLinksButton"><i class="fa fa-linkedin"></i></button></a>
+<a href="http://www.google.com" target="" class=""> <button class="webLinksButton"><i class="fas fa-camera"></i></button></a>
+<a href="http://www.google.com" target="" class=""><button class="webLinksButton"><i class="fas fa-pen"></i></button></a>
+
+
+ -->
