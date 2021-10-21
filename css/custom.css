@@ -54,6 +54,16 @@
   font-weight: 400;
 }
 
+.SpaceLink {
+  height: auto;
+  margin-top: auto;
+  text-align: left;
+  font-family: "Space Mono", monospace;
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .navlist {
   position: relative;
   width: auto;
@@ -150,52 +160,60 @@ html {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #9966ce;
+    background-color: #1a1a1a;
   }
 
-  .orangeColor {
-    color: #7d5bb2;
+  .themeColorTittles {
+    color: #d89c6a;
+  }
+
+  .themeColorBodyText {
+    color: #ffffff;
   }
 
   .navlist {
-    color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
   }
 
   .navlist:hover {
-    color: #68d8a0;
+    color: #d89c6a;
   }
 
   .navIcons {
-    color: rgb(80, 80, 80);
+    color: #d89c6a;
   }
 
   .navIcons:hover {
-    color: #68d8a0;
+    color: #d89c6a;
   }
 }
 
 @media (prefers-color-scheme: light) {
   html {
-    background-color: #62ce9a;
+    background-color: #f4f0ea;
   }
 
-  .orangeColor {
-    color: #56b284;
+  .themeColorTittles {
+    color: #d89c6a;
+  }
+
+  .themeColorBodyText {
+    color: #000000;
   }
 
   .navlist {
-    color: rgb(240, 240, 240);
+    color: rgb(80, 80, 80);
   }
 
   .navlist:hover {
-    color: #7d5bb2;
+    color: #d89c6a;
   }
 
   .navIcons {
-    color: rgb(240, 240, 240);
+    color: rgb(80, 80, 80);
   }
 
   .navIcons:hover {
-    color: #7d5bb2;
+    color: #d89c6a;
   }
 }
