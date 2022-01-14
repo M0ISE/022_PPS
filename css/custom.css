@@ -1,89 +1,3 @@
-@media screen and (max-width: 480px) {
-  #sidebar {
-    position: relative;
-  }
-}
-
-#sidebar {
-  position: fixed;
-}
-
-.NavLogo {
-  display: inline-block;
-  position: right;
-  width: calc(20px + 4vh);
-  padding: 0px 10px;
-  padding-top: 5vh;
-  box-shadow: -2px -2px 9px -7px transparent;
-  text-align: center;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-}
-.NavLogo:hover {
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
-}
-
-.navLinks {
-  position: inline;
-  width: auto;
-  height: auto;
-  padding: 5px 0px;
-  color: rgb(100, 100, 100);
-  box-shadow: -2px -2px 9px -7px transparent;
-  text-align: right;
-  font-family: "Rubik";
-  font-size: calc(16px + 1vh);
-  font-weight: 700;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-}
-.navLinks:hover {
-  color: red;
-  background-color: transparent;
-  transform: scaleX(20);
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
-}
-
-.navTilda {
-  position: inline;
-  width: auto;
-  height: auto;
-  padding: 5px 0px;
-  color: rgb(100, 100, 100);
-  box-shadow: -2px -2px 9px -7px transparent;
-  text-align: right;
-  font-family: "Rubik";
-  font-size: calc(10px + 1vh);
-  font-weight: 700;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-}
-.navTilda:hover {
-  background-color: #transparent;
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
-}
-
-.topMargin {
-  color: transparent;
-  padding: 10px;
-}
-
-.rightHandMargin {
-  color: transparent;
-  padding-top: 10vh;
-}
-
-.breathe {
-  padding: 10vh;
-}
-
-#sidebar {
-  position: relative;
-}
-
 @font-face {
   font-family: "PP-Radio-Grotesk-Bold";
   src: url("RadioGrotesk_Bold.oft") format("woff2"),
@@ -147,6 +61,99 @@
   .navIcons:hover {
     color: #d89c6a;
   }
+}
+
+.NavLogo {
+  display: inline-block;
+  position: right;
+  width: calc(20px + 4vh);
+  padding: 0px 10px;
+  padding-top: 5vh;
+  box-shadow: -2px -2px 9px -7px transparent;
+  text-align: center;
+  transform: translate(0px, 1.5vh);
+
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.NavLogo:hover {
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.navLinks {
+  padding: 5px 0px;
+  color: rgb(100, 100, 100);
+  box-shadow: -2px -2px 9px -7px transparent;
+  text-align: right;
+  font-family: "Rubik";
+  font-size: calc(16px + 1vh);
+  font-weight: 700;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.navLinks:hover {
+  color: red;
+  background-color: transparent;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.navTilda {
+  position: inline;
+  width: auto;
+  height: auto;
+  padding: 5px 0px;
+  color: rgb(100, 100, 100);
+  box-shadow: -2px -2px 9px -7px transparent;
+  text-align: right;
+  font-family: "Rubik";
+  font-size: calc(10px + 1vh);
+  font-weight: 700;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.navTilda:hover {
+  background-color: #transparent;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.breathe {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.heroText {
+  padding-right: 1vw;
+  padding-width: 1vw;
+
+  font-size: calc(10px + 2vh);
+
+  font-family: "Rubik";
+  font-weight: 700;
+}
+
+.linkToWork {
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+  font-family: "PP-Radio-Grotesk-Bold";
+  font-weight: bold;
+  font-kerning: normal;
+  letter-spacing: 0.02em;
+
+  font-size: calc(12px + 0.5vw);
+}
+
+.topMargin {
+  color: transparent;
+  padding: 10px;
+}
+
+.rightHandMargin {
+  color: transparent;
+  padding-top: 10vh;
 }
 
 .blackOut {
@@ -264,6 +271,13 @@ html {
 #webLinks a {
   text-decoration: none;
 }
+#PleaseWorkMate ul li {
+  display: inline-block;
+}
+#PleaseWorkMate a {
+  text-decoration: none;
+}
+
 .heroImage {
   position: center;
   width: 50vw;
