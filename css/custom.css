@@ -8,15 +8,41 @@
   position: fixed;
 }
 
-.heroLogo {
+.NavLogo {
   position: right;
-  width: auto;
-  max-width: 100%;
-  padding: 30px 10px;
+  width: calc(20px + 5vh);
+  max-width: 75%;
+  padding: 0px 10px;
+  padding-top: 5vh;
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: center;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
-.heroLogo:hover {
+.NavLogo:hover {
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  max-width: 110%;
+  max-hight: 100%;
+}
+
+.navLinks {
+  position: inline;
+  width: auto;
+  height: auto;
+  padding: 5px 0px;
+  color: rgb(100, 100, 100);
+  box-shadow: -2px -2px 9px -7px transparent;
+  text-align: right;
+  font-family: "Rubik";
+  font-size: calc(16px + 1vh);
+  font-weight: 700;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.navLinks:hover {
+  color: #ffffff;
+  background-color: #transparent;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
@@ -28,7 +54,7 @@
 
 .rightHandMargin {
   color: transparent;
-  padding-top: 30vh;
+  padding-top: 10vh;
 }
 
 .breathe {
@@ -76,7 +102,7 @@
 }
 @media (prefers-color-scheme: light) {
   html {
-    background-color: #f4f0ea;
+    background-color: rgb(250, 250, 250);
   }
   .themeColorTittles {
     color: #d89c6a;
@@ -181,26 +207,6 @@
   font-weight: 400;
   text-decoration: none;
 }
-.navlist {
-  position: inline;
-  width: auto;
-  height: auto;
-  padding: 5px 0px;
-  color: rgb(100, 100, 100);
-  box-shadow: -2px -2px 9px -7px transparent;
-  text-align: right;
-  font-family: "Rubik";
-  font-size: calc(16px + 1vw);
-  font-weight: 700;
-  -webkit-transition: all ease 1s;
-  transition: all ease 1s;
-}
-.navlist:hover {
-  color: #ffffff;
-  background-color: #transparent;
-  -webkit-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
 .navIcons {
   width: auto;
   height: auto;
@@ -255,7 +261,7 @@ html {
   width: auto;
   max-width: 100%;
   height: 20vw;
-  padding: 30px 10px;
+  padding: 50vh 10px;
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: center;
   transform: translate(20vw, 10px);
