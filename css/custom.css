@@ -9,9 +9,9 @@
 }
 
 .NavLogo {
+  display: inline-block;
   position: right;
-  width: calc(20px + 5vh);
-  max-width: 75%;
+  width: calc(20px + 4vh);
   padding: 0px 10px;
   padding-top: 5vh;
   box-shadow: -2px -2px 9px -7px transparent;
@@ -22,8 +22,6 @@
 .NavLogo:hover {
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
-  max-width: 110%;
-  max-hight: 100%;
 }
 
 .navLinks {
@@ -41,7 +39,28 @@
   transition: all ease 0.5s;
 }
 .navLinks:hover {
-  color: #ffffff;
+  color: red;
+  background-color: transparent;
+  transform: scaleX(20);
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.navTilda {
+  position: inline;
+  width: auto;
+  height: auto;
+  padding: 5px 0px;
+  color: rgb(100, 100, 100);
+  box-shadow: -2px -2px 9px -7px transparent;
+  text-align: right;
+  font-family: "Rubik";
+  font-size: calc(10px + 1vh);
+  font-weight: 700;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.navTilda:hover {
   background-color: #transparent;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
@@ -234,13 +253,13 @@ html {
   height: 100%;
 }
 #nav ul li {
-  display: block;
+  display: inline-block;
 }
 #nav a {
   text-decoration: none;
 }
 #webLinks ul li {
-  display: block;
+  display: inline-block;
 }
 #webLinks a {
   text-decoration: none;
