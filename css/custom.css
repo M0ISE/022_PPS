@@ -4,15 +4,17 @@
   }
 }
 
+#sidebar {
+  position: fixed;
+}
+
 .heroLogo {
-  position: center;
+  position: right;
   width: auto;
   max-width: 100%;
-  height: 15vw;
   padding: 30px 10px;
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: center;
-  transform: translate(-10vw, 0px);
 }
 .heroLogo:hover {
   -webkit-transition: all ease 0.2s;
@@ -24,12 +26,17 @@
   padding: 10px;
 }
 
+.rightHandMargin {
+  color: transparent;
+  padding-top: 30vh;
+}
+
 .breathe {
   padding: 10vh;
 }
 
 #sidebar {
-  position: fixed;
+  position: relative;
 }
 
 @font-face {
@@ -175,13 +182,13 @@
   text-decoration: none;
 }
 .navlist {
-  position: relative;
+  position: inline;
   width: auto;
   height: auto;
-  padding: 5px 5px;
+  padding: 5px 0px;
   color: rgb(100, 100, 100);
   box-shadow: -2px -2px 9px -7px transparent;
-  text-align: center;
+  text-align: right;
   font-family: "Rubik";
   font-size: calc(16px + 1vw);
   font-weight: 700;
@@ -216,31 +223,18 @@
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
 }
-.navImage {
-  position: center;
-  width: auto;
-  max-width: 100%;
-  height: 20vw;
-  padding: 30px 10px;
-  box-shadow: -2px -2px 9px -7px transparent;
-  text-align: center;
-  transform: translate(20vw, 10px);
-}
-.navImage:hover {
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
-}
+
 html {
   height: 100%;
 }
 #nav ul li {
-  display: inline-block;
+  display: block;
 }
 #nav a {
   text-decoration: none;
 }
 #webLinks ul li {
-  display: inline-block;
+  display: block;
 }
 #webLinks a {
   text-decoration: none;
@@ -254,4 +248,19 @@ html {
   padding-bottom: 5vh;
   box-shadow: -2px -2px 9px -7px transparent;
   transform: translate(9vw, 0);
+}
+
+.navImage {
+  position: center;
+  width: auto;
+  max-width: 100%;
+  height: 20vw;
+  padding: 30px 10px;
+  box-shadow: -2px -2px 9px -7px transparent;
+  text-align: center;
+  transform: translate(20vw, 10px);
+}
+.navImage:hover {
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
