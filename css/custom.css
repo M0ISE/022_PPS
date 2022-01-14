@@ -135,15 +135,57 @@
 }
 
 .linkToWork {
-  padding-top: 20px;
-  text-align: center;
+  text-align: left;
   color: rgb(100, 100, 100);
+
   font-family: "PP-Radio-Grotesk-Bold";
   font-weight: bold;
-  font-kerning: normal;
+}
+
+h2 {
+  text-align: left;
+  color: rgb(100, 100, 100);
+
+  font-size: calc(14px + 0.5vw);
+  font-kerning: auto;
   letter-spacing: 0.02em;
 
-  font-size: calc(12px + 0.5vw);
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+h3 {
+  color: rgb(150, 150, 150);
+  text-align: left;
+
+  font-size: calc(10px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.gentileSubtitle {
+  text-align: left;
+  color: rgb(100, 100, 100);
+
+  font-family: "PP-Radio-Grotesk-Bold";
+  font-weight: bold;
+
+  color: rgb(150, 150, 150);
+  text-align: left;
+
+  font-size: calc(14px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.workListItem {
+  padding: 10px;
+  margin: 6px;
 }
 
 .topMargin {
