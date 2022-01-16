@@ -15,65 +15,6 @@
     url("PPMondwest-Bold.woff2") format("woff");
   font-weight: bold;
 }
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: #1a1a1a;
-  }
-  .themeColorTittles {
-    color: #d89c6a;
-  }
-
-  .blackOut {
-    background-color: white;
-    color: #1a1a1a;
-  }
-
-  .themeColorBodyText {
-    color: #ffffff;
-  }
-  .navlist {
-    color: rgb(255, 255, 255);
-  }
-  .navlist:hover {
-    color: #d89c6a;
-  }
-  .navIcons {
-    color: #d89c6a;
-  }
-  .navIcons:hover {
-    color: #d89c6a;
-  }
-}
-@media (prefers-color-scheme: light) {
-  html {
-    background-color: rgb(250, 250, 250);
-  }
-  .themeColorTittles {
-    color: #d89c6a;
-  }
-
-  .blackOut {
-    background-color: #1a1a1a;
-    color: white;
-  }
-
-  .themeColorBodyText {
-    color: #000000;
-  }
-  .navlist {
-    color: rgb(80, 80, 80);
-  }
-  .navlist:hover {
-    color: #d89c6a;
-  }
-  .navIcons {
-    color: rgb(80, 80, 80);
-  }
-  .navIcons:hover {
-    color: #d89c6a;
-  }
-}
-
 .NavLogo {
   display: inline-block;
   position: right;
@@ -92,22 +33,148 @@
   transition: all ease 0.2s;
 }
 
+.darkSwitch {
+  display: none;
+}
+.lightSwitch {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #1a1a1a;
+  }
+  .themeColorTittles {
+    color: #d89c6a;
+  }
+  .blackOut {
+    background-color: white;
+    color: #1a1a1a;
+  }
+  .themeColorBodyText {
+    color: #ffffff;
+  }
+  .navlist {
+    color: rgb(255, 255, 255);
+  }
+  .navlist:hover {
+    color: #d89c6a;
+  }
+  .navIcons {
+    color: #d89c6a;
+  }
+  .navIcons:hover {
+    color: #d89c6a;
+  }
+  .darkSwitch {
+    display: inline-block;
+  }
+  .lightSwitch {
+    display: none;
+  }
+  .linkToWorkH2:hover h2 {
+    color: #7d5bb2;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+
+  .linkToWorkH2:hover h3 {
+    color: #9b6cd8;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  .navLinks:hover {
+    color: #9b6cd8;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  .gentileSubtitle {
+    color: #9b6cd8;
+  }
+}
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: rgb(250, 250, 250);
+  }
+  .themeColorTittles {
+    color: #d89c6a;
+  }
+  .blackOut {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  .themeColorBodyText {
+    color: #000000;
+  }
+  .navlist {
+    color: rgb(80, 80, 80);
+  }
+  .navlist:hover {
+    color: #d89c6a;
+  }
+  .navIcons {
+    color: rgb(80, 80, 80);
+  }
+  .navIcons:hover {
+    color: #d89c6a;
+  }
+  .darkSwitch {
+    display: none;
+  }
+  .lightSwitch {
+    display: inline-block;
+  }
+  .linkToWorkH2:hover h2 {
+    color: #1cd096;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  .linkToWorkH2:hover h3 {
+    color: #2af499;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  .navLinks:hover {
+    color: #1fe8a7;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  .gentileSubtitle {
+    color: #1fe8a7;
+  }
+}
+
+html {
+  height: 100%;
+}
+#nav ul li {
+  display: inline-block;
+}
+#nav a {
+  text-decoration: none;
+}
+#webLinks ul li {
+  display: inline-block;
+}
+#webLinks a {
+  text-decoration: none;
+}
+#PleaseWorkMate ul li {
+  display: inline-block;
+}
+#PleaseWorkMate a {
+  text-decoration: none;
+}
+
 .navLinks {
   padding: 5px 0px;
   color: rgb(100, 100, 100);
-  box-shadow: -2px -2px 9px -7px transparent;
   text-align: right;
   font-family: "PP-Mondwest-Bold";
   font-size: calc(20px + 1vh);
 
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
-}
-.navLinks:hover {
-  color: #1fe8a7;
-  background-color: transparent;
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
 }
 
 .navTilda {
@@ -173,7 +240,7 @@ h3 {
 
   font-size: calc(10px + 0.5vw);
   font-kerning: auto;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
 
   margin-top: 1px;
   margin-bottom: 20px;
@@ -182,26 +249,9 @@ h3 {
   transition: all ease 0.5s;
 }
 
-.linkToWorkH2:hover h2 {
-  color: #1cd096;
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
-}
-
-.linkToWorkH2:hover h3 {
-  color: #2af499;
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
-}
-
 .gentileSubtitle {
-  text-align: left;
-  color: rgb(100, 100, 100);
-
   font-family: "PP-Mondwest-bold";
   font-weight: bold;
-
-  color: #1fe8a7;
   text-align: left;
 
   font-size: calc(12px + 1vw);
@@ -325,28 +375,6 @@ h3 {
   background-color: transparent;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
-}
-
-html {
-  height: 100%;
-}
-#nav ul li {
-  display: inline-block;
-}
-#nav a {
-  text-decoration: none;
-}
-#webLinks ul li {
-  display: inline-block;
-}
-#webLinks a {
-  text-decoration: none;
-}
-#PleaseWorkMate ul li {
-  display: inline-block;
-}
-#PleaseWorkMate a {
-  text-decoration: none;
 }
 
 .heroImage {
