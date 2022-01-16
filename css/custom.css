@@ -1,7 +1,18 @@
 @font-face {
   font-family: "PP-Radio-Grotesk-Bold";
-  src: url("RadioGrotesk_Bold.oft") format("woff2"),
+  src: url("RadioGrotesk_Bold.woff2") format("woff2"),
     url("RadioGrotesk_Bold.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PP-Mondwest";
+  src: url("PPMondwest-Regular.woff") format("woff2"),
+    url("PPMondwest-Regular.woff2") format("woff");
+}
+@font-face {
+  font-family: "PP-Mondwest-Bold";
+  src: url("PPMondwest-Bold.woff") format("woff2"),
+    url("PPMondwest-Bold.woff2") format("woff");
   font-weight: bold;
 }
 @media (prefers-color-scheme: dark) {
@@ -86,14 +97,14 @@
   color: rgb(100, 100, 100);
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: right;
-  font-family: "Rubik";
-  font-size: calc(16px + 1vh);
-  font-weight: 700;
+  font-family: "PP-Mondwest-Bold";
+  font-size: calc(20px + 1vh);
+
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
 .navLinks:hover {
-  color: red;
+  color: #1fe8a7;
   background-color: transparent;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
@@ -107,8 +118,8 @@
   color: rgb(100, 100, 100);
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: right;
-  font-family: "Rubik";
-  font-size: calc(10px + 1vh);
+  font-family: "PP-Mondwest";
+  font-size: calc(18px + 1vh);
   font-weight: 700;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -152,6 +163,9 @@ h2 {
 
   margin-top: 20px;
   margin-bottom: 1px;
+
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 h3 {
   color: rgb(150, 150, 150);
@@ -163,19 +177,34 @@ h3 {
 
   margin-top: 1px;
   margin-bottom: 20px;
+
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.linkToWorkH2:hover h2 {
+  color: #1fe8a7;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.linkToWorkH2:hover h3 {
+  color: red;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .gentileSubtitle {
   text-align: left;
   color: rgb(100, 100, 100);
 
-  font-family: "PP-Radio-Grotesk-Bold";
+  font-family: "PP-Mondwest-bold";
   font-weight: bold;
 
-  color: rgb(150, 150, 150);
+  color: #1fe8a7;
   text-align: left;
 
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(12px + 1vw);
   font-kerning: auto;
   letter-spacing: 0.02em;
 
