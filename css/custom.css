@@ -183,13 +183,13 @@ h3 {
 }
 
 .linkToWorkH2:hover h2 {
-  color: #1fe8a7;
+  color: #1cd096;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
 
 .linkToWorkH2:hover h3 {
-  color: red;
+  color: #2af499;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
