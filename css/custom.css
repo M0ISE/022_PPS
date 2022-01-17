@@ -51,7 +51,8 @@
     background-color: white;
     color: #1a1a1a;
   }
-  .themeColorBodyText {
+  .themeColorBodyText,
+  p {
     color: #ffffff;
   }
   .navlist {
@@ -103,7 +104,8 @@
     background-color: #1a1a1a;
     color: white;
   }
-  .themeColorBodyText {
+  .themeColorBodyText,
+  p {
     color: #000000;
   }
   .navlist {
@@ -163,6 +165,10 @@ html {
   display: inline-block;
 }
 #PleaseWorkMate a {
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -260,6 +266,39 @@ h3 {
 
   margin-top: 1px;
   margin-bottom: 20px;
+}
+
+.bodyContent {
+  text-align: left;
+
+  font-size: calc(12px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+}
+
+.referenceContent {
+  text-align: left;
+
+  font-size: calc(8px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+}
+
+.contentGrid5x {
+  display: inline-block;
+  position: right;
+  width: 100%;
+
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+
+  font-size: calc(6px);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+}
+.NavLogo:hover {
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .workListItem {
