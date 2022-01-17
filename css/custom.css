@@ -42,10 +42,10 @@
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #1a1a1a;
+    background-color: #262626;
   }
   .themeColorTittles {
-    color: #d89c6a;
+    color: #7d5bb2;
   }
   .blackOut {
     background-color: white;
@@ -94,10 +94,10 @@
 }
 @media (prefers-color-scheme: light) {
   html {
-    background-color: rgb(250, 250, 250);
+    background-color: #f2f2f2;
   }
   .themeColorTittles {
-    color: #d89c6a;
+    color: #f2f2f2;
   }
   .blackOut {
     background-color: #1a1a1a;
@@ -135,12 +135,12 @@
     transition: all ease 0.2s;
   }
   .navLinks:hover {
-    color: #1fe8a7;
+    color: #1cd096;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
   }
   .gentileSubtitle {
-    color: #1fe8a7;
+    color: #1cd096;
   }
 }
 
