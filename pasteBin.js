@@ -24,3 +24,33 @@ function hideImagesJQ() {
 }
 
 onclick = "hideImages()";
+
+$(document).ready(function () {
+  $("#pageEvent").click(function () {
+    if ($("#artWorkImages").is(":hidden")) {
+      var backColor = $("#colorSampler").css("background-color");
+      $("#colorSampler").html();
+      $("#hideButton").css("background-color", backColor);
+    } else if ($("#artWorkImages").is(":visible")) {
+      var color = $("#colorSampler").css("color");
+      $("#colorSampler").html();
+      $("#hideButton").css("background-color", color);
+    } else {
+      $("#hideButton").css("background-color", "White");
+    }
+  });
+});
+
+$(document).mousemove(function () {
+  if ($("#artWorkImages").is(":hidden")) {
+    var backColor = $("#colorSampler").css("background-color");
+    $("#colorSampler").html();
+    $("#hideButton").css("background-color", backColor);
+  } else if ($("#artWorkImages").is(":visible")) {
+    var color = $("#colorSampler").css("color");
+    $("#colorSampler").html();
+    $("#hideButton").css("background-color", color);
+  } else {
+    $("#hideButton").css("background-color", "White");
+  }
+});

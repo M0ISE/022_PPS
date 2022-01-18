@@ -24,7 +24,6 @@
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: center;
   transform: translate(0px, 1.5vh);
-
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -40,9 +39,18 @@
   display: none;
 }
 
+.showButton {
+  display: inline-block;
+  margin-bottom: 3vh;
+}
+.hideButton {
+  display: hidden;
+  margin-bottom: 3vh;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #262626;
+    background-color: #1a1a1a;
   }
   .themeColorTittles {
     color: #7d5bb2;
@@ -52,7 +60,8 @@
     color: #1a1a1a;
   }
   .themeColorBodyText,
-  p {
+  p,
+  .showButton {
     color: #ffffff;
   }
   .navlist {
@@ -73,24 +82,70 @@
   .lightSwitch {
     display: none;
   }
-  .linkToWorkH2:hover h2 {
-    color: #7d5bb2;
-    -webkit-transition: all ease 0.2s;
-    transition: all ease 0.2s;
+  .navTilda {
+    color: rgb(150, 150, 150);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
   }
-
-  .linkToWorkH2:hover h3 {
-    color: #9b6cd8;
-    -webkit-transition: all ease 0.2s;
-    transition: all ease 0.2s;
+  .navLinks {
+    color: rgb(200, 200, 200);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
   }
   .navLinks:hover {
     color: #9b6cd8;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
   }
+  h2 {
+    color: rgb(150, 150, 150);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .linkToWorkH2:hover h2 {
+    color: #7d5bb2;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  h3 {
+    color: rgb(200, 200, 200);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .linkToWorkH2:hover h3 {
+    color: #9b6cd8;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+
   .gentileSubtitle {
     color: #9b6cd8;
+  }
+  .showButton {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButton:hover {
+    color: #ffffff;
+    border: 1px solid #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButton {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButton:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
   }
 }
 @media (prefers-color-scheme: light) {
@@ -105,7 +160,8 @@
     color: white;
   }
   .themeColorBodyText,
-  p {
+  p,
+  .showButton {
     color: #000000;
   }
   .navlist {
@@ -126,23 +182,68 @@
   .lightSwitch {
     display: inline-block;
   }
-  .linkToWorkH2:hover h2 {
-    color: #1cd096;
-    -webkit-transition: all ease 0.2s;
-    transition: all ease 0.2s;
+  .navTilda {
+    color: rgb(100, 100, 100);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
   }
-  .linkToWorkH2:hover h3 {
-    color: #2af499;
-    -webkit-transition: all ease 0.2s;
-    transition: all ease 0.2s;
+  .navLinks {
+    color: rgb(100, 100, 100);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
   }
   .navLinks:hover {
     color: #1cd096;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
   }
+  h2 {
+    color: rgb(100, 100, 100);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .linkToWorkH2:hover h2 {
+    color: #1cd096;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+  h3 {
+    color: rgb(150, 150, 150);
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .linkToWorkH2:hover h3 {
+    color: #2af499;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+  }
+
   .gentileSubtitle {
     color: #1cd096;
+  }
+  .showButton {
+    border: 1px solid #000000;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButton:hover {
+    border: 1px solid #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButton {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButton:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
   }
 }
 
@@ -174,11 +275,9 @@ a {
 
 .navLinks {
   padding: 5px 0px;
-  color: rgb(100, 100, 100);
   text-align: right;
   font-family: "PP-Mondwest-Bold";
   font-size: calc(20px + 1vh);
-
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -188,7 +287,6 @@ a {
   width: auto;
   height: auto;
   padding: 5px 0px;
-  color: rgb(100, 100, 100);
   box-shadow: -2px -2px 9px -7px transparent;
   text-align: right;
   font-family: "PP-Mondwest";
@@ -217,6 +315,26 @@ a {
   font-family: "Rubik";
   font-weight: 700;
 }
+.heroTextWork {
+  padding-top: 5vh;
+  padding-right: 1vw;
+  padding-width: 1vw;
+
+  font-size: calc(20px + 3vh);
+
+  font-family: "Rubik";
+  font-weight: 700;
+}
+.heroTextWorkSubTitle {
+  padding-right: 1vw;
+  padding-width: 1vw;
+  padding-bottom: 5vh;
+
+  font-size: calc(10px + 3vh);
+
+  font-family: "Rubik";
+  font-weight: 700;
+}
 
 .linkToWork {
   text-align: left;
@@ -228,7 +346,6 @@ a {
 
 h2 {
   text-align: left;
-  color: rgb(100, 100, 100);
 
   font-size: calc(14px + 0.5vw);
   font-kerning: auto;
@@ -241,7 +358,6 @@ h2 {
   transition: all ease 0.5s;
 }
 h3 {
-  color: rgb(150, 150, 150);
   text-align: left;
 
   font-size: calc(10px + 0.5vw);
@@ -260,7 +376,7 @@ h3 {
   font-weight: bold;
   text-align: left;
 
-  font-size: calc(12px + 1vw);
+  font-size: calc(12px + 5vh);
   font-kerning: auto;
   letter-spacing: 0.02em;
 
@@ -302,7 +418,6 @@ h3 {
   font-kerning: auto;
   letter-spacing: 0.02em;
 }
-
 #artWorkImages {
   display: none;
 }
