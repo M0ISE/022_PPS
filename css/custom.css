@@ -276,14 +276,6 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.referenceContent {
-  text-align: left;
-
-  font-size: calc(8px + 0.5vw);
-  font-kerning: auto;
-  letter-spacing: 0.02em;
-}
-
 .contentGrid5x {
   display: inline-block;
   position: right;
@@ -292,13 +284,27 @@ h3 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 
-  font-size: calc(6px);
+  font-family: "PP-Radio-Grotesk-Bold";
+  font-weight: bold;
+  font-size: 12px;
+  font-kerning: auto;
+  letter-spacing: 0.04em;
+}
+.referenceContent {
+  text-align: left;
+
+  font-family: "PP-Radio-Grotesk-Bold";
+  font-weight: bold;
+  font-kerning: auto;
+  letter-spacing: 0.04em;
+
+  font-size: calc(8px + 0.5vw);
   font-kerning: auto;
   letter-spacing: 0.02em;
 }
-.NavLogo:hover {
-  -webkit-transition: all ease 0.2s;
-  transition: all ease 0.2s;
+
+#artWorkImages {
+  display: none;
 }
 
 .workListItem {

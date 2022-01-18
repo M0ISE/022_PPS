@@ -1,13 +1,19 @@
-window.onload = function() {
+// function hideImages() {
+//   var x = document.getElementById("artWorkImages");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
-var moonCake = document.getElementsById("jsonData")
+$(document).ready(function () {
+  $("#hideButton").click(function () {
+    $("#artWorkImages").slideToggle(700);
 
-console.log(JASON);
+    var color = $("#colorSampler").css("color");
+    $("#colorSampler").html();
 
-var arr = [ "John", "Peter", "Sally", "Jane" ];
-
-var myJSON = JSON.stringify(moonCake);
-
-document.getElementById("demo").innerHTML = myJSON;
-
-};
+    $("#hideButton").css("background-color", color);
+  });
+});
