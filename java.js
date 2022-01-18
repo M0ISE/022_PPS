@@ -10,4 +10,27 @@ $(document).ready(function () {
     $("#showButton").hide();
     $("#hideButton").show();
   });
+
+  $("#hideButtonEssay").click(function () {
+    $("#fullEssayText").slideUp(700);
+    $("#hideButtonEssay").hide();
+    $("#showButtonEssay").show();
+  });
+
+  $("#showButtonEssay").click(function () {
+    $("#fullEssayText").slideDown(700);
+    $("#showButtonEssay").hide();
+    $("#hideButtonEssay").show();
+  });
+
+  $(document).mousemove(function () {
+    if (
+      $("#artWorkImages").is(":hidden") &&
+      $("#fullEssayText").is(":hidden")
+    ) {
+      $("#blankSpace").show();
+    } else {
+      $("#blankSpace").hide();
+    }
+  });
 });

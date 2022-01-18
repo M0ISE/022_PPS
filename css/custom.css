@@ -41,13 +41,44 @@
 
 .showButton {
   display: inline-block;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
   margin-bottom: 3vh;
 }
 .hideButton {
   display: hidden;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
   margin-bottom: 3vh;
 }
+.showButtonEssay {
+  display: inline-block;
 
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 5vh;
+}
+.hideButtonEssay {
+  display: hidden;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 5vh;
+}
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #1a1a1a;
@@ -117,19 +148,18 @@
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
   }
-
   .gentileSubtitle {
     color: #9b6cd8;
   }
   .showButton {
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 1px solid transparent;
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
   .showButton:hover {
     color: #ffffff;
-    border: 1px solid #7d5bb2;
+    border: 1px solid transparent;
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
@@ -217,17 +247,18 @@
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
   }
-
   .gentileSubtitle {
     color: #1cd096;
   }
   .showButton {
-    border: 1px solid #000000;
+    color: #000000;
+    border: 1px solid transparent;
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
   .showButton:hover {
-    border: 1px solid #1cd096;
+    color: #1cd096;
+    border: 1px solid transparent;
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
@@ -239,6 +270,31 @@
     transition: all ease 0.3s;
   }
   .hideButton:hover {
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonEssay {
+    color: #000000;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonEssay:hover {
+    color: #1cd096;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEssay {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEssay:hover {
     color: #000000;
     border: 1px solid transparent;
     background-color: #1cd096;
@@ -391,6 +447,9 @@ h3 {
   font-kerning: auto;
   letter-spacing: 0.02em;
 }
+.littlePadding {
+  padding-bottom: 5vh;
+}
 
 .contentGrid5x {
   display: inline-block;
@@ -420,6 +479,15 @@ h3 {
 }
 #artWorkImages {
   display: none;
+}
+#fullEssayText {
+  display: none;
+}
+#hideButtonEssay {
+  display: none;
+}
+.blankSpace {
+  padding-bottom: 25vh;
 }
 
 .workListItem {
