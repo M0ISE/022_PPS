@@ -216,6 +216,9 @@
   .gentileSubtitle {
     color: #9b6cd8;
   }
+  .gentileSubtitleSmall {
+    color: #9b6cd8;
+  }
 
   .showButton {
     color: #ffffff;
@@ -422,6 +425,9 @@
     transition: all ease 0.2s;
   }
   .gentileSubtitle {
+    color: #1cd096;
+  }
+  .gentileSubtitleSmall {
     color: #1cd096;
   }
 
@@ -696,10 +702,30 @@ h3 {
   margin-bottom: 20px;
 }
 
+.gentileSubtitleSmall {
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: left;
+
+  font-size: calc(12px + 3vh);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
 .bodyContent {
   text-align: left;
 
   font-size: calc(12px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+}
+.bodyContentSmall {
+  text-align: left;
+
+  font-size: calc(8px + 0.5vw);
   font-kerning: auto;
   letter-spacing: 0.02em;
 }
