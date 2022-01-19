@@ -1,18 +1,18 @@
 @font-face {
   font-family: "PP-Radio-Grotesk-Bold";
-  src: url("RadioGrotesk_Bold.woff2") format("woff2"),
-    url("RadioGrotesk_Bold.woff") format("woff");
+  src: url("fonts/RadioGrotesk_Bold.woff2") format("woff2"),
+    url("fonts/RadioGrotesk_Bold.woff") format("woff");
   font-weight: bold;
 }
 @font-face {
   font-family: "PP-Mondwest";
-  src: url("PPMondwest-Regular.woff") format("woff2"),
-    url("PPMondwest-Regular.woff2") format("woff");
+  src: url("fonts/PPMondwest-Regular.woff") format("woff2"),
+    url("fonts/PPMondwest-Regular.woff2") format("woff");
 }
 @font-face {
   font-family: "PP-Mondwest-Bold";
-  src: url("PPMondwest-Bold.woff") format("woff2"),
-    url("PPMondwest-Bold.woff2") format("woff");
+  src: url("fonts/PPMondwest-Bold.woff") format("woff2"),
+    url("fonts/PPMondwest-Bold.woff2") format("woff");
   font-weight: bold;
 }
 .NavLogo {
