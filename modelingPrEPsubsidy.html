@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- The Basics -->
+  <meta charset="utf-8" />
+  <title>Modeling subsidy of PrEP</title>
+  <meta name="description" content="An essay on Art, Time and Choice" />
+  <meta name="author" content="Jason Moisiadis" />
+
+  <meta name="theme-color" content="#F4F0EA" media="(prefers-color-scheme: light)" />
+
+  <meta name="theme-color" content="#1A1A1A" media="(prefers-color-scheme: dark)" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+
+  <script src="https://kit.fontawesome.com/b8b160c81f.js" crossorigin="anonymous"></script>
+
+  <!-- JS -->
+  <script src=""></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="resources/favicon.png" />
+</head>
+
+<!-- Now the Content, Because we all know Content is King -->
+
+<body id="pageEvent">
+  <!-- nar bar -->
+  <div class="container">
+    <div id="nav" class="twelve columns">
+      <ul>
+        <li>
+          <!-- Light Mode Logo -->
+          <a href="/index"><img class="NavLogo lightSwitch" src="resources/isometric_Green.png"
+              alt="Jason Moise Logo Light Theme" /></a>
+        </li>
+        <li>
+          <!-- Dark Mode Logo -->
+          <a href="/index"><img class="NavLogo darkSwitch" src="resources/isometric_Purple.png"
+              alt="Jason Moise Logo Dark Theme" /></a>
+        </li>
+        <li>
+          <h3 class="navTilda">&nbsp · &nbsp</h3>
+        </li>
+        <li>
+          <!-- Link to my Work/ Home Page -->
+          <a class="navLinks" href="/index.html">Work ✨</a>
+        </li>
+        <li>
+          <h3 class="navTilda">&nbsp · &nbsp</h3>
+        </li>
+        <li>
+          <!-- Link to my Photography Page -->
+          <a class="navLinks" href="/index.html">Photography ▨</a>
+        </li>
+        <li>
+          <h3 class="navTilda">&nbsp · &nbsp</h3>
+        </li>
+        <li>
+          <!-- Link to my About Page -->
+          <a class="navLinks" href="/me.html">About ☕</a>
+        </li>
+        <li>
+          <h3 class="navTilda">&nbsp · &nbsp</h3>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Welcome text -->
+  <div class="container">
+    <div class="twelve columns">
+      <p class="themeColorBodyText heroTextWork">
+        Modelling Methods to decrease HIV
+        infections within Australia.
+      </p>
+      <p class="themeColorBodyText heroTextWorkSubTitle">
+        —An modelling experiment
+      </p>
+    </div>
+    <div class="twelve columns">
+      <p class="themeColorBodyText bodyContent littlePadding">
+        The first one is a simple quote to a definition. Its job is not to be the answer to the question, but function
+        as an
+        initial breaking down of the topic; in this case forming a sense of Serenity. Which I then engaged with and
+        broke down
+        and talked through from there.
+        The next two citations function similarly to each other, In this section of my work I am talking through ideas
+        about
+        forming a sense of home. And engaging with readings are some of the cornerstones of urban planning and thoughts
+        about
+        creating a sense of home.
+        <br>
+        <br>
+
+        Just talking about the home and at-easeness in this way is a nod towards the fact that you know your stuff, and
+        someone
+        who is familiar with the field would know who you’re talking about. But the citation functions as a tool for the
+        reader
+        to go back down my path of research and find out how Ralph and Seamon framed these concepts and see if they
+        aline to
+        what I’m saying. and means that they don’t have have read two random books about the home and Place and
+        Placelessness.
+      </p>
+    </div>
+  </div>
+
+  <!-- Hide/ Show Content Button   -->
+  <div class="container">
+    <div class="twelve columns">
+      <!-- Controls Embedded Visablity  -->
+      <button id="showButtonEmbedded" class="showButtonEmbedded">
+        ♦ Embedded Model ·
+      </button>
+      <button id="hideButtonEmbedded" style="display: none;" class="hideButtonEmbedded">
+        ◊ Embedded Model ·
+      </button>
+      <!-- Controls Results Visablity   -->
+      <button id="showButtonResults" class="showButtonResults">
+        ♦ Modeling Results ·
+      </button>
+      <button id="hideButtonResults" style="display: none;" class="hideButtonResults">
+        ◊ Modeling Results ·
+      </button>
+      <!-- Controls Paper Visablity   -->
+      <button id="showButtonPaper" class="showButtonPaper">
+        ♦ Full Paper ·
+      </button>
+      <button id="hideButtonPaper" style="display: none;" class="hideButtonPaper">
+        ◊ Full Paper ·
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="blankSpacePrEP" class="blankSpace">
+      <p>
+        &nbsp
+      </p>
+    </div>
+  </div>
+
+  <!-- Embedded Model I Frame   -->
+  <div id="modellingIFrame">
+
+    <!-- Section tittle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText gentileSubtitle">· the model ·</p>
+      </div>
+    </div>
+
+    <!-- Model I Frame   -->
+    <div class="container">
+      <div class="twelve columns">
+
+        <IFRAME SRC="//InsightMaker.com/insight/6YF7DUUH7MrOkhkWTIaapN/embed?topBar=1&sideBar=1&zoom=1"
+          TITLE="Embedded Insight" width=100% height=900></IFRAME>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div id="resultGraphsContainer">
+    <!-- Page Subtitle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p id="colorSampler" class="themeColorBodyText gentileSubtitle">· The Graphs ·</p>
+      </div>
+    </div>
+
+    <!-- Page text Content  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText bodyContent">
+
+          Human immunodeficiency virus (HIV) is a disease that we have no cure for as of yet. Without treatment, a
+          person with HIV
+          will eventually develop acquired immunodeficiency syndrome (AIDS) and again without treatment, they’ll
+          typically survive
+          three years. In the past, people with HIV and AIDS have been highly stigmatised in our society, with a lack of
+          general
+          understanding of how HIV is transmitted and treated. With the demonification of these people who were infected
+          with the
+          disease stalling progress on treatment for many years. With lasting cultural touchstones such as the
+          Australian Grim
+          Reaper AIDS Campaign (1987), there is a risk that the public’s sense of the state of treatment could be suck
+          in the
+          eighties, leaving a false perception about the state of treatment for persons with HIV or AIDS.
+
+
+        </p>
+      </div>
+    </div>
+
+    <!-- Page Subtitle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText gentileSubtitle"> · References ·</p>
+      </div>
+    </div>
+
+    <!-- Page Subtitle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText referenceContent">
+
+          Macgregor, E. A. (2020). Lindy Lee: Moon in a dew drop. (Macgregor, p. 45)<br>
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="paperTextPageContainer">
+    <!-- Page Subtitle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p id="colorSampler" class="themeColorBodyText gentileSubtitle">· The Assignment ·</p>
+      </div>
+    </div>
+
+    <!-- Page text Content  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText bodyContent">
+
+          Human immunodeficiency virus (HIV) is a disease that we have no cure for as of yet. Without treatment, a
+          person with HIV
+          will eventually develop acquired immunodeficiency syndrome (AIDS) and again without treatment, they’ll
+          typically survive
+          three years. In the past, people with HIV and AIDS have been highly stigmatised in our society, with a lack of
+          general
+          understanding of how HIV is transmitted and treated. With the demonification of these people who were infected
+          with the
+          disease stalling progress on treatment for many years. With lasting cultural touchstones such as the
+          Australian Grim
+          Reaper AIDS Campaign (1987), there is a risk that the public’s sense of the state of treatment could be suck
+          in the
+          eighties, leaving a false perception about the state of treatment for persons with HIV or AIDS.
+
+
+        </p>
+      </div>
+    </div>
+
+    <!-- Page Subtitle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText gentileSubtitle"> · References ·</p>
+      </div>
+    </div>
+
+    <!-- Page Subtitle  -->
+    <div class="container">
+      <div class="twelve columns">
+        <p class="themeColorBodyText referenceContent">
+
+          Macgregor, E. A. (2020). Lindy Lee: Moon in a dew drop. (Macgregor, p. 45)<br>
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE END –– -->
+  <script src="java.js"></script>
+
+</body>
+
+</html>

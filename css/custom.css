@@ -151,6 +151,7 @@
   .gentileSubtitle {
     color: #9b6cd8;
   }
+
   .showButton {
     color: #ffffff;
     border: 1px solid transparent;
@@ -171,6 +172,114 @@
     transition: all ease 0.3s;
   }
   .hideButton:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonEssay {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonEssay:hover {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEssay {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEssay:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonEmbedded {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonEmbedded:hover {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEmbedded {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEmbedded:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonResults {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonResults:hover {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonResults {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonResults:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonPaper {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonPaper:hover {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonPaper {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonPaper:hover {
     color: #000000;
     border: 1px solid transparent;
     background-color: #7d5bb2;
@@ -250,6 +359,7 @@
   .gentileSubtitle {
     color: #1cd096;
   }
+
   .showButton {
     color: #000000;
     border: 1px solid transparent;
@@ -275,6 +385,7 @@
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
+
   .showButtonEssay {
     color: #000000;
     border: 1px solid transparent;
@@ -295,6 +406,86 @@
     transition: all ease 0.3s;
   }
   .hideButtonEssay:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonEmbedded {
+    color: #000000;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonEmbedded:hover {
+    color: #1cd096;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEmbedded {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonEmbedded:hover {
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonResults {
+    color: #000000;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonResults:hover {
+    color: #1cd096;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonResults {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonResults:hover {
+    color: #000000;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .showButtonPaper {
+    color: #000000;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .showButtonPaper:hover {
+    color: #1cd096;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonPaper {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #1cd096;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .hideButtonPaper:hover {
     color: #000000;
     border: 1px solid transparent;
     background-color: #1cd096;
@@ -488,6 +679,16 @@ h3 {
 }
 .blankSpace {
   padding-bottom: 25vh;
+}
+
+#modellingIFrame {
+  display: none;
+}
+#resultGraphsContainer {
+  display: none;
+}
+#paperTextPageContainer {
+  display: none;
 }
 
 .workListItem {
