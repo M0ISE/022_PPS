@@ -28,46 +28,46 @@ $(document).ready(function () {
       $("#artWorkImages").is(":hidden") &&
       $("#fullEssayText").is(":hidden")
     ) {
-      $("#blankSpace").show();
+      $("#blankSpaceSuperposition").show();
     } else {
-      $("#blankSpace").hide();
+      $("#blankSpaceSuperposition").hide();
     }
   });
 
   $("#showButtonEmbedded").click(function () {
-    $("#modellingIFrame").slideUp(700);
+    $("#modellingIFrame").slideDown(500);
     $("#showButtonEmbedded").hide();
     $("#hideButtonEmbedded").show();
   });
 
   $("#hideButtonEmbedded").click(function () {
-    $("#modellingIFrame").slideDown(700);
+    $("#modellingIFrame").slideUp(500);
     $("#hideButtonEmbedded").hide();
     $("#showButtonEmbedded").show();
   });
 
   $("#showButtonResults").click(function () {
-    $("#resultGraphsContainer").slideUp(700);
-    $("#hideButtonResults").hide();
-    $("#showButtonResults").show();
-  });
-
-  $("#hideButtonResults").click(function () {
-    $("#resultGraphsContainer").slideDown(700);
+    $("#resultGraphsContainer").slideDown(500);
     $("#showButtonResults").hide();
     $("#hideButtonResults").show();
   });
 
+  $("#hideButtonResults").click(function () {
+    $("#resultGraphsContainer").slideUp(500);
+    $("#hideButtonResults").hide();
+    $("#showButtonResults").show();
+  });
+
   $("#showButtonPaper").click(function () {
-    $("#paperTextPageContainer").slideUp(700);
-    $("#hideButtonPaper").hide();
-    $("#showButtonPaper").show();
+    $("#paperTextPageContainer").slideDown(500);
+    $("#showButtonPaper").hide();
+    $("#hideButtonPaper").show();
   });
 
   $("#hideButtonPaper").click(function () {
-    $("#paperTextPageContainer").slideDown(700);
-    $("#showButtonPaper").hide();
-    $("#hideButtonPaper").show();
+    $("#paperTextPageContainer").slideUp(500);
+    $("#hideButtonPaper").hide();
+    $("#showButtonPaper").show();
   });
 
   $(document).mousemove(function () {
@@ -78,7 +78,7 @@ $(document).ready(function () {
     ) {
       $("#blankSpacePrEP").show();
     } else {
-      $("#blankSpace").hide();
+      $("#blankSpacePrEP").hide();
     }
   });
 });

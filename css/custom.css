@@ -59,6 +59,7 @@
   font-size: calc(6px + 2.5vh);
   margin-bottom: 3vh;
 }
+
 .showButtonEssay {
   display: inline-block;
 
@@ -79,6 +80,70 @@
   font-size: calc(6px + 2.5vh);
   margin-bottom: 5vh;
 }
+
+.showButtonEmbedded {
+  display: inline-block;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 3vh;
+}
+.hideButtonEmbedded {
+  display: hidden;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 3vh;
+}
+
+.showButtonResults {
+  display: inline-block;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 3vh;
+}
+.hideButtonResults {
+  display: hidden;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 3vh;
+}
+
+.showButtonPaper {
+  display: inline-block;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 3vh;
+}
+.hideButtonPaper {
+  display: hidden;
+
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: center;
+
+  font-size: calc(6px + 2.5vh);
+  margin-bottom: 3vh;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #1a1a1a;
