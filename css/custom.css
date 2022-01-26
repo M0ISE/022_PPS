@@ -15,6 +15,17 @@
     url("fonts/PPMondwest-Bold.woff2") format("woff");
   font-weight: bold;
 }
+@font-face {
+  font-family: "PP-NeueMontreal-Regular";
+  src: url("fonts/NeueMontreal-Regular.woff2") format("woff2"),
+    url("fonts/NeueMontreal-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "PP-NeueMontreal-Bold";
+  src: url("fonts/NeueMontreal-Bold.woff") format("woff2"),
+    url("fonts/NeueMontreal-Bold.woff2") format("woff");
+  font-weight: bold;
+}
 .NavLogo {
   display: inline-block;
   position: right;
@@ -752,6 +763,7 @@ h3 {
 
 .bodyContent {
   text-align: left;
+  font-family: PP-NeueMontreal-Regular;
 
   font-size: calc(12px + 0.5vw);
   font-kerning: auto;
