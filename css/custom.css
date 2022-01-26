@@ -189,12 +189,12 @@
     display: none;
   }
   .navTilda {
-    color: rgb(150, 150, 150);
+    color: rgb(245, 245, 245);
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
   }
   .navLinks {
-    color: rgb(200, 200, 200);
+    color: rgb(245, 245, 245);
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
   }
@@ -380,7 +380,7 @@
 }
 @media (prefers-color-scheme: light) {
   html {
-    background-color: #f2f2f2;
+    background-color: white;
   }
   .themeColorTittles {
     color: #f2f2f2;
@@ -395,13 +395,13 @@
     color: #000000;
   }
   .navlist {
-    color: rgb(80, 80, 80);
+    color: rgb(0, 0, 0);
   }
   .navlist:hover {
     color: #d89c6a;
   }
   .navIcons {
-    color: rgb(80, 80, 80);
+    color: rgb(0, 0, 0);
   }
   .navIcons:hover {
     color: #d89c6a;
@@ -413,12 +413,12 @@
     display: inline-block;
   }
   .navTilda {
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
   }
   .navLinks {
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
   }
