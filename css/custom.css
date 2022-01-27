@@ -674,7 +674,7 @@ a {
   padding-right: 1vw;
   padding-width: 1vw;
 
-  font-size: calc(10px + 2vh);
+  font-size: calc(10px + 4vh);
 
   font-family: "Rubik";
   font-weight: 700;
@@ -760,6 +760,18 @@ h3 {
   margin-top: 1px;
   margin-bottom: 20px;
 }
+.copyRightFooter {
+  font-family: "PP-Mondwest-bold";
+  font-weight: bold;
+  text-align: right;
+
+  font-size: calc(1vh);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
 
 .bodyContent {
   text-align: left;
@@ -778,6 +790,15 @@ h3 {
 }
 .littlePadding {
   padding-bottom: 5vh;
+}
+
+.educationContent {
+  text-align: left;
+  font-family: PP-Mondwest-Bold;
+
+  font-size: calc(12px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
 }
 
 .contentGrid5x {
@@ -968,4 +989,10 @@ h3 {
 .navImage:hover {
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
+}
+
+.copyRightFooterImg {
+  display: inline;
+  width: 2vw;
+  height: auto;
 }
