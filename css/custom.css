@@ -799,6 +799,22 @@ h3 {
   font-size: calc(12px + 0.5vw);
   font-kerning: auto;
   letter-spacing: 0.02em;
+
+  margin: 0;
+  padding-top: 0;
+  line-height: auto;
+}
+.educationContentSmall {
+  text-align: left;
+  font-family: PP-Mondwest-Bold;
+
+  font-size: calc(8px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin: 0;
+  padding-top: 0;
+  line-height: auto;
 }
 
 .contentGrid5x {
@@ -995,4 +1011,14 @@ h3 {
   display: inline;
   width: 2vw;
   height: auto;
+}
+
+.bitShiftFont {
+  font-family: PP-Mondwest-Bold;
+  font-style: normal;
+  font-kerning: none;
+  letter-spacing: auto;
+}
+.iWantGreen {
+  color: #40ad48;
 }
