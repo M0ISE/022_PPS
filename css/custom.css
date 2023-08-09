@@ -57,7 +57,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 .hideButton {
@@ -67,7 +67,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 
@@ -78,7 +78,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 5vh;
 }
 .hideButtonEssay {
@@ -88,7 +88,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 5vh;
 }
 
@@ -99,7 +99,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 .hideButtonEmbedded {
@@ -109,7 +109,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 
@@ -120,7 +120,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 .hideButtonResults {
@@ -130,7 +130,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 
@@ -141,7 +141,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 .hideButtonPaper {
@@ -151,7 +151,7 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 3vh;
 }
 .showButtonPDF {
@@ -161,8 +161,48 @@
   font-weight: bold;
   text-align: center;
 
-  font-size: calc(6px + 2.5vh);
+  font-size: calc(6px + 2vw);
   margin-bottom: 5vh;
+}
+
+.aboutlistItems {
+  text-align: left;
+  font-family: PP-Mondwest-Bold;
+
+  font-size: calc(6px + 2vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin: 0;
+  padding-top: 0;
+  line-height: auto;
+  display: inline-block;
+}
+.aboutlistItemsSmall {
+  text-align: left;
+  font-family: PP-Mondwest-Bold;
+
+  font-size: calc(8px + 0.5vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin: 0;
+  padding-top: 0;
+  line-height: auto;
+}
+.aboutlistItems_Button {
+  text-align: left;
+  font-family: PP-Mondwest-Bold;
+
+  font-size: calc(6px + 2vw);
+  font-kerning: auto;
+  letter-spacing: 0.02em;
+
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: auto;
+  display: inline-block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -264,6 +304,19 @@
     color: #000000;
     border: 1px solid transparent;
     background-color: #7d5bb2;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+
+  .aboutlistItems_Button {
+    color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .aboutlistItems_Button:hover {
+    color: #ffffff;
+    border: 1px solid transparent;
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
@@ -490,6 +543,18 @@
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
   }
+  .aboutlistItems_Button {
+    color: #000000;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .aboutlistItems_Button:hover {
+    color: #1cd096;
+    border: 1px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
 
   .showButtonEssay {
     color: #000000;
@@ -674,7 +739,7 @@ a {
   padding-right: 1vw;
   padding-width: 1vw;
 
-  font-size: calc(10px + 4vh);
+  font-size: calc(3vh);
 
   font-family: "Rubik";
   font-weight: 700;
@@ -796,7 +861,7 @@ h3 {
   text-align: left;
   font-family: PP-Mondwest-Bold;
 
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(6px + 2vw);
   font-kerning: auto;
   letter-spacing: 0.02em;
 
@@ -830,6 +895,36 @@ h3 {
   font-size: 12px;
   font-kerning: auto;
   letter-spacing: 0.04em;
+}
+.contentGridWork {
+  display: block;
+  position: left;
+  width: 25vw;
+
+  -webkit-transition: all ease 2s;
+  transition: all ease 2s;
+
+  font-family: "PP-Radio-Grotesk-Bold";
+  font-weight: bold;
+  font-size: 12px;
+  font-kerning: auto;
+  letter-spacing: 0.04em;
+
+  border-radius: 10px;
+  margin-bottom: 1vh;
+}
+
+.heroContent {
+  display: flex;
+  position: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 2vh;
+
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
 }
 .referenceContent {
   text-align: left;
@@ -1013,7 +1108,7 @@ h3 {
   height: auto;
 }
 
-.bitShiftFont {
+.bitShifheroTexttFont {
   font-family: PP-Mondwest-Bold;
   font-style: normal;
   font-kerning: none;
